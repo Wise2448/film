@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+      background: rgb(24, 24, 24);
+  
+  }
+  .first{
+    height: 50vh;
+    width: 100%;
+    background: blue;
+    position: relative;
+    background: rgb(40, 40, 40);
+    opacity: 0.9;
+    margin-bottom: 20px;
+  }
+  .first .img1{
+    background: red;
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    top: 50px;
+    left: 260px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+  }
+  .img1 span{ 
+    font-size: 30px;
+    color: white;
+      text-transform: uppercase;
+  
+    
+  }
+  .first .img1 img{
+    width: 100%;
+    height: 100%;
+  }
+  .first .name{
+  position: absolute;
+    top: 700px;
+    left: 20px;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+  }
+  .first .btn{
+    position: absolute;
+    bottom: 50px;
+    left: 130px;
+    display: flex;
+    
+  
+  }
+  .first .btn button{
+  padding: 15px 90px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 25px;
+  margin: 0 20px;
+  border-radius: 30px;
+  }
+  .first .btn .btn2{
+    background: inherit;
+      border: 2px solid black;
+      color: white;
+  
+    
+  }
+  .first .download{
+    position: absolute;
+    top: 650px;
+    right: 30px;
+    font-size: 35px;
+    border-radius: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: inherit;
+    color: white;
+    border: 1px solid lightgray;
+  
+  }
+  .total{
+      position: absolute;
+    top: 750px;
+    left: 30px;
+      font-size: 20px;
+  color: lightgray;
+  }
+  .like-vid .img{
+    width: 300px;
+    height: 350px;
+    background: red;
+  }
+  .like-vid .img img{
+    width: 100%;
+    height: 100%;
+  }
+  .like-vid .name-type{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .like-vid .name{
+    font-size: 30px;
+    font-family: Qiucksand;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+  
+    
+  }
+  .like-vid .type{
+      font-size: 20px;
+      font-family: Quicksand;
+        color: white;
+            margin-bottom: 30px;
+  
+      }
+  .like-vid{
+    display: flex;
+      opacity: 0.9;
+    background: rgb(40, 40, 40);
+    margin-bottom: 25px;
+  
+  }
+  .first-liked{
+    padding: 10px 20px;
+    position: relative;
+  }
+  .first-liked .first-span{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .first-span span{
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  .first-span .hd{
+    border-radius: 5px;
+      background: red;
+  
+  }
+  .share{
+    background: rgb(40, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .share span{
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .share .english{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    
+  }
+  .share button{
+    margin-left: 30px;
+      padding: 10px 35px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      border: 2px solid red;
+      font-size: 17px;
+      background: inherit;
+      color: white;
+  
+  }
+  .share .color{
+    color: white;
+    display: inline-block;
+    padding: 5px 5px;
+    background: black;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgb(24, 24, 24),-13px -13px 15px rgb(24, 24, 24);
+  }
+  
+  /*.first-liked button{
+    padding: 15px 35px;
+    border: none;
+    outline: none;
+    border: 2px solid red;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    background: inherit;
+    color: white;
+    position: absolute;
+    top: 250px;
+    right: 400px;
+  }*/
+  .nav-btn{
+          background: rgb(20,20,20);
+          width: 100%;
+          height: 120px;
+          display: flex;
+          
+          justify-content: space-around;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: 3;
+          
+  
+  }
+  .nav-btn button i{
+    font-size: 40px;
+    text-decoration: none;
+    color: lightgray;
+  }
+  .nav-btn button{
+  border: none;
+  outline: none;
+  background: inherit;
+          background: rgb(20,20,20);
+  
+  
+    padding: 20px 40px;
+  }
+  .nav-btn button.btn-color{
+    background: rgb(240,240,240);
+  border-radius: 5px;
+  }
+  .nav-btn button.btn-color i{
+    color: black;
+  }
+  .span{
+    color: white;
+  }
+  @media (max-width: 500px){
+    .first .img1 {
+      background: red;
+      width: 45%;
+      height: 60%;
+      position: absolute;
+      top: 40px;
+      left: 130px;
+      border-radius: 10px;
+      text-align: center;
+      font-family: Poppins;
+      font-weight: 400;
+    }
+    .img1 span{ 
+    font-size: 17px;
+    color: white;
+      text-transform: uppercase;
+  
+    
+  }
+  .first .name{
+  position: absolute;
+    top: 350px;
+    left: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+  .total {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    font-size: 12px;
+    color: lightgray;
+  }
+  .first .download {
+    position: absolute;
+    top: 350px;
+    right: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: inherit;
+    color: white;
+    border: 1px solid lightgray;
+  
+  }
+  .first .btn{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    display: flex;
+    
+  
+  }
+  .first .btn button{
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  margin: 0 20px;
+  border-radius: 10px;
+  }
+  .like-vid .img{
+    width: 200px;
+    height: 250px;
+    background: red;
+  }
+  .like-vid .name {
+    font-size: 15px;
+    font-family: Qiucksand;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+  
+  
+  }
+  .like-vid .type {
+    font-size: 10px;
+    font-family: Quicksand;
+    color: white;
+    margin-bottom: 30px;
+  
+  }
+  .first-liked .first-span{
+    margin-top: 13px;
+    margin-bottom: 15px;
+  }
+  .first-span span{
+    color: white;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 4px 8px;
+  }
+  .share span{
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .share .english{
+    color: white;
+    font-size: 5px;
+    font-weight: bold;
+    
+  }
+  .share button{
+    margin-left: 16px;
+    display: flex;
+      padding: 5px 15px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      border: 2px solid red;
+      font-size: 10px;
+      background: inherit;
+      color: white;
+  
+  }
+  .share .color{
+    color: white;
+    display: inline-block;
+    padding: 3px 3px;
+    background: black;
+    font-size: 10px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgb(24, 24, 24),-13px -13px 15px rgb(24, 24, 24);
+  }
+  .first-liked {
+    padding: 5px 10px;
+    position: relative;
+  }
+  .nav-btn {
+    background: rgb(20, 20, 20);
+    width: 100%;
+    height: 90px;
+    display: flex;
+  justify-content: flex-start;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  
+  
+  }
+  
+  .nav-btn button i {
+    font-size: 20px;
+    text-decoration: none;
+    color: lightgray;
+  }
+  .nav-btn button{
+  border: none;
+  outline: none;
+  background: inherit;
+  
+          background: rgb(20,20,20);
+  
+  margin-left: 10px;
+  margin-right: 10px;
+    padding: 20px 40px;
+  }
+  
+  }
+  @media (max-width: 360px){
+      .first .img1 {
+      background: red;
+      width: 45%;
+      height: 60%;
+      position: absolute;
+      top: 30px;
+      left: 100px;
+      border-radius: 7px;
+      text-align: center;
+      font-family: Poppins;
+      font-weight: 400;
+    }
+    .img1 span{ 
+    font-size: 13px;
+    color: white;
+      text-transform: uppercase;
+  
+    
+  }
+  .first .name{
+  position: absolute;
+    top: 240px;
+    left: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+  }
+  .total {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    font-size: 10px;
+    color: lightgray;
+  }
+  .first .download {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    font-size: 15px;
+    border-radius: 100%;
+    padding: 7px;
+    border: none;
+    outline: none;
+    background: inherit;
+    color: white;
+    border: 1px solid lightgray;
+  
+  }
+  .first .btn{
+    position: absolute;
+    bottom: 7px;
+    left: 30px;
+    display: flex;
+    
+  
+  }
+  .first .btn button{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 15px;
+  margin: 0 20px;
+  border-radius: 7px;
+  }  
+   .like-vid .img{
+    width: 90px;
+    height: 150px;
+    background: red;
+  }
+  .like-vid .name {
+    font-size: 12px;
+    font-family: Qiucksand;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+  
+  
+  } 
+  .like-vid .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .nav-btn{
+          background: rgb(20,20,20);
+          width: 100%;
+          height: 90px;
+          display: inline-flex;
+          
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: 3;
+          
+  
+  }
+  .nav-btn button i{
+    font-size: 20px;
+    text-decoration: none;
+    color: lightgray;
+  }
+  
+  .nav-btn button{
+  border: none;
+  outline: none;
+  background: inherit;
+          background: rgb(20,20,20);
+  margin-left: 15px;
+  
+    padding: 10px 20px;
+  }
+  
+  }
